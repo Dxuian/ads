@@ -2,151 +2,119 @@
 
 # Django based  Library Management
 
-#### Django Library Management is a web application built with Django, Razorpay, and Tailwind CSS that provides an online platform for managing libraries.
+#### Django Library Management is a web application built with Django, bootstrap Tailwind CSS that provides an online platform for managing libraries.
 > 
 
 
 This project is built with :
+- Django
+- Mysql
+- Docker
+- Bootstrap
+- Tailwind CSS
 
 
 
+# Django Library Management
 
-## Installation 📦
-### To install Django Music Player, follow these steps:
-## 1. Clone this repository:
->'https://github.com/BurhanMohammad/Django-librarymanagement.git'
-## 2. Navigate to the project directory:
+#### Django Library Management is a web application built with Django, MySQL, Docker, and Tailwind CSS that provides an online platform for managing libraries.
 
-```bash
-  cd Django-librarymanagement
-```
-## 3 . Create a virtual environment:
-```bash
-  python3 -m venv env
-```
-## 4. Activate the virtual environment:
-```bash
-  source env/bin/activate
-```
-## 5. Install the project dependencies:
-```bash
-  pip install -r requirements.txt
-```
-## 6 . Run the server
-```bash
-  python manage.py runserver
-```
-## 7 . Go to localhost:8000
 ---
 
-## Features of this project:
+## Project Stack:
+- Django
+- MySQL
+- Docker
+- Tailwind CSS
 
-##### Anyone can
+---
 
-1. see all the books in homepage
-2. search books based on author or name of the book or category of the book
-3. sort books or author alphabetically
+## Installation 📦
+### To install Django Library Management, follow these steps:
 
-##### Student can
+### 1. Clone this repository:
+```bash
+  git clone https://github.com/dxuian/ads.git
+```
 
-1.  login / signup ,
-2.  can request book
-3.  see their own issues and filter them based on :
+### 2. Navigate to the project directory:
+```bash
+  cd ads
+```
 
-    - requested issues ,
-    - issued books or
-    - all of them together
+### 3. Start the application using Docker Compose:
+```bash
+  docker-compose up --build
+```
 
-4.  check their own fines
-5.  can see
+This command will build the Docker images and start the containers for the application and database.
 
-    - the days remaining to return a particular book
-      **or**
-    - the number of days passed the return date of a particular book in the my fines page
+### 4. Access the application:
+Open your web browser and go to:
+```
+http://localhost:8000
+```
 
-6.  Pay their fines online (powered by RazorPay)
+---
 
-##### Admin can
+## Features:
 
-1.  login to admin dashboard
-2.  check all issues :
+### General Users:
+1. View all books on the homepage.
+2. Search for books by author, name, or category.
+3. Sort books or authors alphabetically.
 
-    - see issues ,
-    - delete issues ,
-    - search issues by studentid
-    - filter issues based on :
+### Students:
+1. Log in or sign up.
+2. Request a book.
+3. View and filter their issues by:
+   - Requested issues.
+   - Issued books.
+   - All issues.
+4. Check fines:
+   - View days remaining to return a book.
+   - See overdue days and associated fines.
 
-      - issued or not,
-      - returned or not ,
+### Admins:
+1. Log in to the admin dashboard.
+2. Manage issues:
+   - View, delete, and search issues by student ID.
+   - Filter issues by issued or returned status.
+   - Accept issue requests (manually or automatically calculate return dates).
+3. Manage books:
+   - Add, delete, and search books.
+   - Filter books by author.
+4. Manage authors:
+   - Add, delete, and search authors.
+5. Handle fines:
+   - Calculate fines.
+   - Create, delete, and search fines.
+   - Toggle fine payment status.
+6. Manage students:
+   - Search, modify, add, or delete students.
+   - Filter students by department.
+   - Check all fines and issues of a student.
+   - View last login, date joined, and associated users.
+   - Change user passwords.
 
-3.  accept a issue :
-
-    - from the dashboard where admin has to manually select return date
-      **or**
-    - from the Issue requests page where return date is automatically calculated
-
-4.  add , delete search books and filter books based on author
-5.  add , delete , search author
-6.  calculate fine by clicking a button ,
-7.  create, delete fine ,search fines for studentid
-8.  toggle fine paid status (if paid in cash)
-9.  search ,modify,add,delete students , filter them based on department and check all fines and issues of that student
-10. can see the last-login , date joined & the student associated to a particular user
-11. can change password for any user
-
-##### More ...
-
-1. while signing up if studentID is already associated to a user in this platform then it will show a error without reloading the page and as soon as correct id is given then the error will go away
-2. Books in homepage will show status of `issued` , `issue requested` or `request issue` based on whether the book is issued or requested for a issue or is not requested for logged-in students only
+### Additional Features:
+1. Responsive error handling during sign-up for duplicate Student IDs without reloading the page.
+2. Display book statuses (e.g., `issued`, `issue requested`, or `request issue`) based on the user's actions.
 
 ---
 
 ## Usage:
-### To install Django Music Player, follow these steps:
-## 1. Run the server:
-
+1. Start the server using Docker Compose:
 ```bash
-  python manage.py runserver
+  docker-compose up
 ```
 
-## 2. Open your web browser and go to:
->'http://localhost:8000/'
-## 3 . Sign up for a new account or log in with an existing one.
+2. Open your browser and navigate to:
+```
+http://localhost:8000
+```
 
-## 4. Add some books to the library.
+3. Sign up for a new account or log in.
 
-## 5. Borrow and return books as needed.
+4. Add books to the library, borrow, and return books as needed.
 
-## 6 . Make online payment using Razorpay payment gateway.
-
-
-## Contributing 💡
-
-#### If you'd like to contribute to Django Library Management, feel free to fork this repository and submit a pull request. For more information on contributing to the project, please check out my repository.
-
-
-#### Step 1
-
-- **Option 1**
-    - 🍴 Fork this repo!
-
-- **Option 2**
-    - 👯 Clone this repo to your local machine.
-
-
-#### Step 2
-
-- **Build your code** 🔨🔨🔨
-
-#### Step 3
-
-- 🔃 Create a new pull request.
-## Creadits :
-
-#### Django Library Management was created by Unnat bharol
-
-
-## License
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-
-- **[MIT license](http://opensource.org/licenses/mit-license.php)**

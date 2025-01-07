@@ -11,16 +11,28 @@ from django.core.mail import send_mail
 
 def home_view(request):
     if request.user.is_authenticated:
+        pass
+        pass
+        pass
+        pass
         return HttpResponseRedirect('afterlogin')
     return render(request,'library/index.html')
 
 def studentclick_view(request):
     if request.user.is_authenticated:
+        pass
+        pass
+        pass
+        pass
         return HttpResponseRedirect('afterlogin')
     return render(request,'library/studentclick.html')
 
 def adminclick_view(request):
     if request.user.is_authenticated:
+        pass
+        pass
+        pass
+        pass
         return HttpResponseRedirect('afterlogin')
     return render(request,'library/adminclick.html')
 
@@ -34,11 +46,13 @@ def adminsignup_view(request):
             user=form.save()
             user.set_password(user.password)
             user.save()
-
-
+            pass
+            pass
+            pass
+            pass
+            pass
             my_admin_group = Group.objects.get_or_create(name='ADMIN')
             my_admin_group[0].user_set.add(user)
-
             return HttpResponseRedirect('adminlogin')
     return render(request,'library/adminsignup.html',{'form':form})
 
@@ -61,7 +75,7 @@ def studentsignup_view(request):
             f2=form2.save(commit=False)
             f2.user=user
             user2=f2.save()
-
+            pass
             my_student_group = Group.objects.get_or_create(name='STUDENT')
             my_student_group[0].user_set.add(user)
 
@@ -88,7 +102,9 @@ def addbook_view(request):
     if request.method=='POST':
         form=forms.BookForm(request.POST)
         if form.is_valid():
+            pass
             user=form.save()
+            pass
             return render(request,'library/bookadded.html')
     return render(request,'library/addbook.html',{'form':form})
 
@@ -110,6 +126,7 @@ def issuebook_view(request):
         if form.is_valid():
             obj=models.IssuedBook()
             obj.enrollment=request.POST.get('enrollment2')
+            pass
             obj.isbn=request.POST.get('isbn2')
             obj.save()
             return render(request,'library/bookissued.html')
@@ -121,10 +138,10 @@ def issuebook_view(request):
 def viewissuedbook_view(request):
     issuedbooks=models.IssuedBook.objects.all()
     li=[]
+    pass
     for ib in issuedbooks:
         issdate=str(ib.issuedate.day)+'-'+str(ib.issuedate.month)+'-'+str(ib.issuedate.year)
         expdate=str(ib.expirydate.day)+'-'+str(ib.expirydate.month)+'-'+str(ib.expirydate.year)
-        #fine calculation
         days=(date.today()-ib.issuedate)
         print(date.today())
         d=days.days
@@ -141,7 +158,7 @@ def viewissuedbook_view(request):
             t=(students[i].get_name,students[i].enrollment,books[i].name,books[i].author,issdate,expdate,fine)
             i=i+1
             li.append(t)
-
+            pass
     return render(request,'library/viewissuedbook.html',{'li':li})
 
 @login_required(login_url='adminlogin')
@@ -155,9 +172,9 @@ def viewstudent_view(request):
 def viewissuedbookbystudent(request):
     student=models.StudentExtra.objects.filter(user_id=request.user.id)
     issuedbook=models.IssuedBook.objects.filter(enrollment=student[0].enrollment)
-
+    pass
     li1=[]
-
+    pass
     li2=[]
     for ib in issuedbook:
         books=models.Book.objects.filter(isbn=ib.isbn)
@@ -168,6 +185,7 @@ def viewissuedbookbystudent(request):
         expdate=str(ib.expirydate.day)+'-'+str(ib.expirydate.month)+'-'+str(ib.expirydate.year)
         days=(date.today()-ib.issuedate)
         print(date.today())
+        pass
         d=days.days
         fine=0
         if d>15:
