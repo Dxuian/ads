@@ -87,7 +87,7 @@ DATABASES = {
         'NAME': 'dev',
         'USER': 'dev',
         'PASSWORD': 'dev',
-        'HOST': 'db',  # Name of the service defined in docker-compose.yml
+        'HOST': 'db',  
         'PORT': '3306',
     }
 }
