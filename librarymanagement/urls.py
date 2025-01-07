@@ -46,6 +46,6 @@ urlpatterns = [
     path('viewissuedbookbystudent', views.viewissuedbookbystudent),
 
     path('aboutus', views.aboutus_view),
-    path('contactus', views.contactus_view),
+    # path('contactus', views.contactus_view),
 
 ]

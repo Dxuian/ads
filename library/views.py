@@ -7,7 +7,6 @@ from django.contrib import auth
 from django.contrib.auth.decorators import login_required,user_passes_test
 from datetime import datetime,timedelta,date
 from django.core.mail import send_mail
-#from librarymanagement.settings import EMAIL_HOST_USER
 
 
 def home_view(request):
@@ -15,13 +14,11 @@ def home_view(request):
         return HttpResponseRedirect('afterlogin')
     return render(request,'library/index.html')
 
-#for showing signup/login button for student
 def studentclick_view(request):
     if request.user.is_authenticated:
         return HttpResponseRedirect('afterlogin')
     return render(request,'library/studentclick.html')
 
-#for showing signup/login button for teacher
 def adminclick_view(request):
     if request.user.is_authenticated:
         return HttpResponseRedirect('afterlogin')
@@ -87,10 +84,8 @@ def afterlogin_view(request):
 @login_required(login_url='adminlogin')
 @user_passes_test(is_admin)
 def addbook_view(request):
-    #now it is empty book form for sending to html
     form=forms.BookForm()
     if request.method=='POST':
-        #now this form have data from html
         form=forms.BookForm(request.POST)
         if form.is_valid():
             user=form.save()
@@ -111,7 +106,6 @@ def viewbook_view(request):
 def issuebook_view(request):
     form=forms.IssuedBookForm()
     if request.method=='POST':
-        #now this form have data from html
         form=forms.IssuedBookForm(request.POST)
         if form.is_valid():
             obj=models.IssuedBook()
@@ -172,7 +166,6 @@ def viewissuedbookbystudent(request):
             li1.append(t)
         issdate=str(ib.issuedate.day)+'-'+str(ib.issuedate.month)+'-'+str(ib.issuedate.year)
         expdate=str(ib.expirydate.day)+'-'+str(ib.expirydate.month)+'-'+str(ib.expirydate.year)
-        #fine calculation
         days=(date.today()-ib.issuedate)
         print(date.today())
         d=days.days
@@ -188,14 +181,4 @@ def viewissuedbookbystudent(request):
 def aboutus_view(request):
     return render(request,'library/aboutus.html')
 
-def contactus_view(request):
-    sub = forms.ContactusForm()
-    if request.method == 'POST':
-        sub = forms.ContactusForm(request.POST)
-        if sub.is_valid():
-            email = sub.cleaned_data['Email']
-            name=sub.cleaned_data['Name']
-            message = sub.cleaned_data['Message']
-            send_mail(str(name)+' || '+str(email),message, EMAIL_HOST_USER, ['wapka1503@gmail.com'], fail_silently = False)
-            return render(request, 'library/contactussuccess.html')
-    return render(request, 'library/contactus.html', {'form':sub})
+
