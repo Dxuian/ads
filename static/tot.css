@@ -1,0 +1,969 @@
+footer {
+    background-color: black;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 23px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+
+
+p {
+    text-align: center;
+
+}
+
+.jumbotron {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #000000 !important;
+}
+
+.jumbotron h1 {
+    text-align: center;
+}
+
+.alert {
+    margin: 0px;
+}
+
+body {
+    color: #ffffff;
+    background-color:  #000000 !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-control {
+    border-color: #eee;
+    min-height: 41px;
+    box-shadow: none !important;
+}
+
+.form-control:focus {
+    border-color: #5cd3b4;
+}
+
+.form-control,
+.btn {
+    border-radius: 3px;
+}
+
+.signup-form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.signup-form h2 {
+    color: #ffffff;
+    margin: 0 0 30px 0;
+    display: inline-block;
+    padding: 0 30px 10px 0;
+    border-bottom: 3px solid #ffffff;
+}
+
+.signup-form form {
+    color: #ffffff;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background: #000000;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.signup-form .form-group {
+    margin-bottom: 20px;
+}
+
+.signup-form label {
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.signup-form input[type="checkbox"] {
+    margin-top: 2px;
+}
+
+.signup-form .btn {
+    font-size: 16px;
+    font-weight: bold;
+    background: #000000;
+    border: none;
+    margin-top: 20px;
+    min-width: 140px;
+}
+
+.signup-form .btn:hover,
+.signup-form .btn:focus {
+    background: #000000;
+    outline: none !important;
+}
+
+.signup-form a {
+    color: #2b04ff;
+
+    text-decoration: underline;
+}
+
+.signup-form a:hover {
+    text-decoration: none;
+}
+
+.signup-form form a {
+    color: #5cd3b4;
+    text-decoration: none;
+}
+
+.signup-form form a:hover {
+    text-decoration: underline;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.jumbotron {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.jumbotron h1 {
+    text-align: center;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+.jumbotron h1 {
+    text-align: center;
+}
+
+body {
+    color: #ffffff;
+    background-color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-control {
+    border-color: #eee;
+    min-height: 41px;
+    box-shadow: none !important;
+}
+
+.form-control:focus {
+    border-color: #5cd3b4;
+}
+
+.form-control,
+.btn {
+    border-radius: 3px;
+}
+
+.signup-form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.signup-form h2 {
+    color: #fffcfc;
+    margin: 0 0 30px 0;
+    display: inline-block;
+    padding: 0 30px 10px 0;
+    border-bottom: 3px solid #ffffff;
+}
+
+.signup-form form {
+    color: #999;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background: #fff;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.signup-form .form-group {
+    margin-bottom: 20px;
+}
+
+.signup-form label {
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.signup-form input[type="checkbox"] {
+    margin-top: 2px;
+}
+
+.signup-form .btn {
+    font-size: 16px;
+    font-weight: bold;
+    background: #000000;
+    border: none;
+    margin-top: 20px;
+    min-width: 140px;
+}
+
+.signup-form .btn:hover,
+.signup-form .btn:focus {
+    background: #000000;
+    outline: none !important;
+}
+
+.signup-form a {
+    color: #2b04ff;
+
+    text-decoration: underline;
+}
+
+.signup-form a:hover {
+    text-decoration: none;
+}
+
+.signup-form form a {
+    color: #5cd3b4;
+    text-decoration: none;
+}
+
+.signup-form form a:hover {
+    text-decoration: underline;
+}
+
+body {
+    color: #ffffff;
+    background-color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-control {
+    border-color: #ffffff;
+    min-height: 41px;
+    box-shadow: none !important;
+}
+
+.form-control:focus {
+    border-color: #5cd3b4;
+}
+
+.form-control,
+.btn {
+    border-radius: 3px;
+}
+
+.signup-form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.signup-form h2 {
+    color: #fffcfc;
+    margin: 0 0 30px 0;
+    display: inline-block;
+    padding: 0 30px 10px 0;
+    border-bottom: 3px solid #ffffff;
+}
+
+.signup-form form {
+    color: #ffffff;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background: #000000;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.signup-form .form-group {
+    margin-bottom: 20px;
+}
+
+.signup-form label {
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.signup-form input[type="checkbox"] {
+    margin-top: 2px;
+}
+
+.signup-form .btn {
+    font-size: 16px;
+    font-weight: bold;
+    background: #000000;
+    border: none;
+    margin-top: 20px;
+    min-width: 140px;
+}
+
+.signup-form .btn:hover,
+.signup-form .btn:focus {
+    background: #25453e;
+    outline: none !important;
+}
+
+.signup-form a {
+    color: #ffffff;
+
+    text-decoration: underline;
+}
+
+.signup-form a:hover {
+    text-decoration: none;
+}
+
+.signup-form form a {
+    color: #5cd3b4;
+    text-decoration: none;
+}
+
+.signup-form form a:hover {
+    text-decoration: underline;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+.jumbotron h1 {
+    text-align: center;
+}
+
+.bs-example {
+    margin: 0px;
+
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+
+.col-lg-6 {
+    padding-left: 20%;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+body {
+    color: white;
+    background: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-control {
+    border-color: #eee;
+    min-height: 41px;
+    box-shadow: none !important;
+}
+
+.form-control:focus {
+    border-color: #5cd3b4;
+}
+
+.form-control,
+.btn {
+    border-radius: 3px;
+}
+
+.signup-form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.signup-form h2 {
+    color: #ffffff;
+    margin: 0 0 30px 0;
+    display: inline-block;
+    padding: 0 30px 10px 0;
+    border-bottom: 3px solid #ffffff;
+}
+
+.signup-form form {
+    color: #fbfbfb;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background: #000000;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.signup-form .form-group {
+    margin-bottom: 20px;
+}
+
+.signup-form label {
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.signup-form input[type="checkbox"] {
+    margin-top: 2px;
+}
+
+.signup-form .btn {
+    font-size: 16px;
+    font-weight: bold;
+    background: #000000;
+    border: none;
+    margin-top: 20px;
+    min-width: 140px;
+}
+
+.signup-form .btn:hover,
+.signup-form .btn:focus {
+    background: #41cba9;
+    outline: none !important;
+}
+
+.signup-form a {
+    color: #2b04ff;
+
+    text-decoration: underline;
+}
+
+.signup-form a:hover {
+    text-decoration: none;
+}
+
+.signup-form form a {
+    color: #5cd3b4;
+    text-decoration: none;
+}
+
+.signup-form form a:hover {
+    text-decoration: underline;
+}
+
+.bs-example {
+    margin: 0px;
+
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+
+.bs-example {
+    margin: 0px;
+
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+
+.bs-example {
+    margin: 0px;
+
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.jumbotron {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.jumbotron h1 {
+    text-align: center;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+.jumbotron h1 {
+    text-align: center;
+}
+
+body {
+    color: white;
+    background-color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-control {
+    border-color: #eee;
+    min-height: 41px;
+    box-shadow: none !important;
+}
+
+.form-control:focus {
+    border-color: #5cd3b4;
+}
+
+.form-control,
+.btn {
+    border-radius: 3px;
+}
+
+.signup-form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.signup-form h2 {
+    color: #ffffff;
+    margin: 0 0 30px 0;
+    display: inline-block;
+    padding: 0 30px 10px 0;
+    border-bottom: 3px solid #ffffff;
+}
+
+.signup-form form {
+    color: #ffffff;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background: #000000;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.signup-form .form-group {
+    margin-bottom: 20px;
+}
+
+.signup-form label {
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.signup-form input[type="checkbox"] {
+    margin-top: 2px;
+}
+
+.signup-form .btn {
+    font-size: 16px;
+    font-weight: bold;
+    background: #000000;
+    border: none;
+    margin-top: 20px;
+    min-width: 140px;
+}
+
+.signup-form .btn:hover,
+.signup-form .btn:focus {
+    background: #000000;
+    outline: none !important;
+}
+
+.signup-form a {
+    color: #ffffff;
+
+    text-decoration: underline;
+}
+
+.signup-form a:hover {
+    text-decoration: none;
+}
+
+.signup-form form a {
+    color: #5cd3b4;
+    text-decoration: none;
+}
+
+.signup-form form a:hover {
+    text-decoration: underline;
+}
+
+body {
+    color: white;
+    background-color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-control {
+    border-color: #eee;
+    min-height: 41px;
+    box-shadow: none !important;
+}
+
+.form-control:focus {
+    border-color: #5cd3b4;
+}
+
+.form-control,
+.btn {
+    border-radius: 3px;
+}
+
+.signup-form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.signup-form h2 {
+    color: #ffffff;
+    margin: 0 0 30px 0;
+    display: inline-block;
+    padding: 0 30px 10px 0;
+    border-bottom: 3px solid #ffffff;
+}
+
+.signup-form form {
+    color: #ffffff;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background: #000000;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.signup-form .form-group {
+    margin-bottom: 20px;
+}
+
+.signup-form label {
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.signup-form input[type="checkbox"] {
+    margin-top: 2px;
+}
+
+.signup-form .btn {
+    font-size: 16px;
+    font-weight: bold;
+    background: #000000;
+    border: none;
+    margin-top: 20px;
+    min-width: 140px;
+}
+
+.signup-form .btn:hover,
+.signup-form .btn:focus {
+    background: #103229;
+    outline: none !important;
+}
+
+.signup-form a {
+    color: #ffffff;
+
+    text-decoration: underline;
+}
+
+.signup-form a:hover {
+    text-decoration: none;
+}
+
+.signup-form form a {
+    color: #5cd3b4;
+    text-decoration: none;
+}
+
+.signup-form form a:hover {
+    text-decoration: underline;
+}
+
+table.redTable {
+    border: 2px solid #A40808;
+    background-color: #000000;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table.redTable td,
+table.redTable th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+}
+
+table.redTable tbody td {
+    font-size: 13px;
+}
+
+table.redTable tr:nth-child(even) {
+    background: #000000;
+}
+
+table.redTable thead {
+    background: #000000;
+}
+
+table.redTable thead th {
+    font-size: 19px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    border-left: 2px solid #000000;
+}
+
+table.redTable thead th:first-child {
+    border-left: none;
+}
+
+table.redTable tfoot {
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #000000;
+}
+
+table.redTable tfoot td {
+    font-size: 13px;
+}
+
+table.redTable tfoot .links {
+    text-align: right;
+}
+
+table.redTable tfoot .links a {
+    display: inline-block;
+    background: #000000;
+    color: #000000;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+
+table.redTable {
+    border: 2px solid #080101;
+    background-color: #000000;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table.redTable td,
+table.redTable th {
+    border: 1px solid #000000;
+    padding: 3px 2px;
+}
+
+table.redTable tbody td {
+    font-size: 13px;
+}
+
+table.redTable tr:nth-child(even) {
+    background: #000000;
+}
+
+table.redTable thead {
+    background: #000000;
+}
+
+table.redTable thead th {
+    font-size: 19px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #000000;
+}
+
+table.redTable thead th:first-child {
+    border-left: none;
+}
+
+table.redTable tfoot {
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #000000;
+}
+
+table.redTable tfoot td {
+    font-size: 13px;
+}
+
+table.redTable tfoot .links {
+    text-align: right;
+}
+
+table.redTable tfoot .links a {
+    display: inline-block;
+    background: #FFFFFF;
+    color: #000000;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+
+table.redTable {
+    border: 2px solid #000000;
+    background-color: #000000;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table.redTable td,
+table.redTable th {
+    border: 1px solid #000000;
+    padding: 3px 2px;
+}
+
+table.redTable tbody td {
+    font-size: 13px;
+}
+
+table.redTable tr:nth-child(even) {
+    background: #F5C8BF;
+}
+
+table.redTable thead {
+    background: #A40808;
+}
+
+table.redTable thead th {
+    font-size: 19px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #A40808;
+}
+
+table.redTable thead th:first-child {
+    border-left: none;
+}
+
+table.redTable tfoot {
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #000000;
+}
+
+table.redTable tfoot td {
+    font-size: 13px;
+}
+
+table.redTable tfoot .links {
+    text-align: right;
+}
+
+table.redTable tfoot .links a {
+    display: inline-block;
+    background: #000000;
+    color: #ffffff;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+
+table.redTable {
+    border: 2px solid #000000;
+    background-color: #000000;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table.redTable td,
+table.redTable th {
+    border: 1px solid #000000;
+    padding: 3px 2px;
+}
+
+table.redTable tbody td {
+    font-size: 13px;
+}
+
+table.redTable tr:nth-child(even) {
+    background: #000000;
+}
+
+table.redTable thead {
+    background: #000000;
+}
+
+table.redTable thead th {
+    font-size: 19px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #A40808;
+}
+
+table.redTable thead th:first-child {
+    border-left: none;
+}
+
+table.redTable tfoot {
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #000000;
+}
+
+table.redTable tfoot td {
+    font-size: 13px;
+}
+
+table.redTable tfoot .links {
+    text-align: right;
+}
+
+table.redTable tfoot .links a {
+    display: inline-block;
+    background: #FFFFFF;
+    color: #000000;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+.alert {
+    color:white;
+    background-color: #000000;
+    border:0px;
+}
+.navbar{
+    background-color: #000000 !important;
+}
